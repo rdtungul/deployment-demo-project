@@ -1,6 +1,6 @@
 {
   "name": "recipe-api",
-  "version": "1.0",
+  "version": "1.2.2",
   "description": "Node JS API for Recipes",
   "main": "index.js",
   "scripts": {
@@ -11,13 +11,13 @@
     "build:config": "cp ./src/config.json ./dist/config.json; cp ./package.json ./dist/package.json",
     "build": "npm run build:clean; npm run build:config; tsc --skipLibCheck;"
   },
-  "author": "rosephdarl",
-  "license": "ITS",
+  "author": "Tom Shaw",
+  "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.24.4",
     "@babel/preset-env": "^7.24.4",
     "@types/jest": "^29.5.12",
-    "@types/node": "^22.0.0",
+    "@types/node": "^22.4.0",
     "@types/supertest": "^6.0.2",
     "babel-jest": "^29.7.0",
     "jest": "^29.7.0",
